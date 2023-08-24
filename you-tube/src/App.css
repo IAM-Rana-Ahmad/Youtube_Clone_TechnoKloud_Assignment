@@ -1,0 +1,26 @@
+.hoverable:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  border-radius: 8px;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) { 
+  #carouselExample {
+      display: none;
+  }
+   .hide{
+    display: none;
+   }
+}
+
+.popup:hover{
+  transform: scale(1.4);
+  transition-duration: 2s;
+  cursor: pointer;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
